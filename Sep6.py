@@ -1,4 +1,4 @@
-print("""Todays date is 9/1/2022, and these are nots on Starting System
+print("""Todays date is 9/6/2022, and these are nots on Starting System
 
 
 Warm-up is some video about "potential future of robots and robot/human interaction related to the workforce."

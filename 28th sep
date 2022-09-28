@@ -1,0 +1,78 @@
+print("""Todays date is 9/28/2022, and these are notes on Ethical & Social Implications of IT & Computer Systems
+Creating a product, or an update to a product, is only part of the equation. Once a product is created, there is still a process for release. Let's look a little into that.
+-- MENU --
+''''''''''
+Please choose on of the options below, and press enter.
+1) qucik stsrt
+2) First video
+3) Paper Prototyping
+4) more notes
+5) 
+6) 
+7)  
+Yo YO YO Mr. WHIIITEEEEE, type a number with corresponding topics.""")
+
+answer = "empty"
+
+while (answer == "empty"):
+  userchoice = input()
+  if(userchoice == "1"):
+    print("""We'll look more at stakeholders later, but they are relevant to prototyping.
+Essentially prototypes are a form of testing a design. The prototype is about communicating the design to those involved, and those involved are typically reffered to as stakeholders. There are a variety of stakeholders typically related to a product. Essentially a stakeholder is anyone with an interest or influence on the business/product/project. Again, more detail on this later.
+Most of your time today will be focused on paper prototyping, but let's look at a bit of discussion about the concept of prototyping in general first. Prototypes can be low-fidelity (video) or high-fidelity (video). 
+Paper prototyping (video) is widely used, and is generally considered low-fidelity, although this doesn't mean that a paper prototype can't be high-fidelity, but they aren't typically used this way.
+""")
+
+  elif(userchoice == "2"):
+    print("""You can use prtotyping to show intent this is where we can go, what we want to do, how it might work. ORRR the other use is we use prototyping tool to in form a developer about something a like mechanical and such and all the red linning that come with it. you need to create a protoype quickly. scetches or models both work. One probalem with prototyping is that you can decieve the public into thinking oyou are much more ahead then you actually are. You can test different prototype, they are very successful some story about the a guy at invision. Its just how quickly you can make prototypes its an investment if time. """)
+    print("")
+    print(""" """)
+
+  elif(userchoice == "3"):
+    print("""This project is related to our ongoing consulting company. You'll learn about the paper prototyping process, and create one related to the service / product your consulting company addressed previously. If your suggestion for the service / product your consulting is very small, expand it- find a way to make it bigger for this Prototypes can be used to help give the idea of a program, but they can also help test usability. Here's an example of testing a paper prototype with a user. 
+This example includes a lot of interactivity by having one of the designers provide the response based on the users interaction.
+Before all of this could be created, the designers/developers would need to plan out the interactions and map how the app will respond. So, before we create a prototype, we need to plan out the interactions through what we call scenarios and storyboards. And the stype before that is ideatation. We sort of shortcutted that, but let's get a quick gloss over. With a quick gloss over of the ideation phase, we should be able to look at scenario creation and storyboards. Then, after this, we can work on paper prototypes. The goal for today is to work on your scenarions / storyboards, and then next time to work on the prototype.
+
+Watch this LinkedIn Learning 20 minute video course, UX Design 5: Creating Scenarios & Storyboards. Then, work on your scenarios and/or storyboards for the product your consulting company has focused on. Paper prototyping is a process where design teams create paper representations of digital products to help them realize concepts and test designs. They draw sketches or adapt printed materials and use these low-fidelity screenshot samples to cheaply guide their designs and study users' reactions from early in projects. Paper prototypes can be quickly modified in between sessions if it becomes evident something doesn't work. They can even be iterated on with the participant. This could lead to obtain more accurate insights from users.
+""")
+
+  elif(userchoice == "4"):
+    print("""Know what you’re making
+Before you start drawing anything, you should have a good idea of what you’re trying to design and what it will be expected to do. If you don’t know that yet, then it’s time to stop and figure that out before moving forward.
+Elsie already had a very good idea of what her team was building and had even done some prior testing to determine the need for this app.
+Create your tasks
+Don’t draw out every single frame in your system down to the flow of changing your password. You likely won’t have time to go through everything (unless you have a very small system). Write up a few of the most important tasks that users should be able to accomplish and test those first. Figure out the steps they will need to make in order to accomplish these tasks and only draw these steps out.
+Elsie brainstormed with her team and came up with a short list of the most important tasks to test. These were: adding an online recipe, adding a printed recipe, manually adding to the checklist, and adding a staple food for the system to monitor.
+Draw out your prototypes
+Grab some paper and some pens. The goal is to be quick and cheap in drawing these, so your paper prototypes should not be a work of art. Consider drawing at least two possible ideas for the layout and structure of your content. Keep in mind though; if you’re having your users test both of your layouts, alternate which one is seen first. Either that or have half the participants use one version and the other half use the other one. The benefit of making at least two layout versions is so that you can quickly find your best layout and structure based on more than the creators’ personal preferences.
+Below are two examples of paper prototype pages from Elsie’s app. These show two different potential layouts for the main screen of the app. As you can see, these are not that fancy and don’t take much time to produce. The amount of detail you need to include in these depends on the tasks that you set out in step 2 (Prototyping for Usability Testing – How Detailed Should You Get?).
+lista
+In addition to showing main screens, it is also important to show the different states each screen will be in as the users complete their tasks. So, for example once the user selects “Add new item” in the left picture below, you would show them a different drawn state of that page with the keyboard up ready for input.
+listb
+Grab a handful of your users
+At five or six users, you should already have some excellent feedback. Don’t feel the need to recruit a whole village. If you can’t get as many as five or six, then go with less, one user is far better than none. Let me emphasis that these people should be your users, not some of your friends, or worse, members of your development team.
+Elsie had a good idea who her users were and where to find them, so she went to her nearest grocery store and asked customers who were mobile users if they would be interested in participating in a short study. After getting her first participant, Elsie was ready to begin testing.
+Run your tests
+Sit down with your users one at a time and ask them to complete each task. Tell them to talk aloud about their actions as they do them and act as if the paper drawings were a real device.
+When the users tap on buttons take out the drawn prototype of where clicking that button should take them and respond to their actions as if you were the application. If the user clicks on an area that you didn’t expect them to click on and haven’t drawn out, don’t worry, just ask them what they would expect to find there.
+Take notes while they complete their tasks and record if they were able to do the task and any problems they might have encountered. Better yet, get someone else on your team to take notes so that your attention doesn’t have to be divided between two activities.
+Elsie ran all her tests and paid her users for their time. One of her team members wrote down notes about the sessions while Elsie changed the drawings in response to the users’ actions. After five users they were done and ready for analysis.
+Look for trends
+After completing the tasks with all your users, it’s time to make sense of your data. Make a list of all the issues that you noted down and look at how many times each issue appeared. Pay the most attention to issues that came up frequently or issues that prevented your users from being able to complete the tasks. These are the issues that you should focus on fixing first. Some issues might have very clear fixes (the icon you used was not understood) others might be manifestations of a problem elsewhere (text on a different screen gave the user a false idea of how the system works). Try to dig down to what you think caused each of these problems and come up with a possible solution.
+Elsie compiled a list of all the problems and found that there were a couple of issues revolving around adding a staple food. Users didn’t understand why they would do this or what would happen if they did. Else realized that there probably wasn’t enough explanation provided around this functionality.
+Act on them
+Excellent! Now that you have your list of problems and possible fixes, it’s time to implement them. At this point, you could stop, but because you haven’t tested your new design, you can’t be sure that your changes have fixed the problems or if they have introduced new ones. The best thing to do is test your new design with the same tasks and start again from step three. It’s far more valuable to run several iterative tests with a few people than one big test with of people. If you don’t have time or money for another test than you’ll just have to skip doing this, but try to plan for more testing phases next time. Once your design has done well enough in testing, it is time to start building.
+
+
+""")
+    
+  elif(userchoice == "5"):
+    print(""" """)
+    print("")
+
+  elif(userchoice == "7"):
+    print(""" """)
+  else: 
+    print("INVALID INPUT, please try again")
+    answer = "empty"
+    userchoice = input()

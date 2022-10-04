@@ -98,11 +98,11 @@ Discuss the advantages and disadvantages of students having unrestricted and uns
 I will tell you a story. During my E.E my chromebook was restircited and did not allow any chess related activities, this was horrible because IIIIII NNNNEEEEEEDDDDDEEEEDDDD to research chess and I couldn't. Fuck that, so I brought my own chorme book, and worked. some times restriction is a bad thing. 
 
 2. Choose the topic...
-that you already feel you know a lot about. Tell me what you know about it.Chess I know a lot about chess.
+that you already feel you know a lot about. Tell me what you know about it. Gaming: Interactive medium capable of telling stories and providing intellectual stimulation. Also can improve hand-eye coordination. Users may have lower levels of concentration, sleep deprivation, social desensitization, addiction, and neglect real life and educational / personal development.
 
 3. Choose the topic...
 that you feel you know the least about it. Look over a resource about it. Provide the link to the resource, and tell me what you learned about it. """)
-    print("")
+    print("The Internet: Access to nearly immediate access to new tools, new ways to obtain information, new ways to share information. However, this can result in internet addiction, neglecting real life, and social media obsession.")
 
   elif(userchoice == "7"):
     print(""" """)

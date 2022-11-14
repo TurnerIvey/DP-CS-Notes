@@ -1,0 +1,96 @@
+print("""Todays date is 11/14/2022, and these are notes on WCAG
+So much of our technology today, and our daily use of technology, is now web based. It wasn't always this way. However, even fairly early on, accessibility was a concern for web content. Over time, this has been continually updated as more and more content and media has moved to the web. WCAG is a set of standards designed specifically for web content.
+-- MENU --
+''''''''''
+Please choose on of the options below, and press enter.
+1) What is WCAG
+2) What was WCAG released?
+3) Who works on WCAG
+4) What is WCAG 2.1 in comparison to WCAG 2.0
+5) Task 2 more on WCAG 3
+6) Another Task SaaS solutions 
+7)  
+Yo YO YO Mr. WHIIITEEEEE, type a number with corresponding topics.""")
+
+answer = "empty"
+
+while (answer == "empty"):
+  userchoice = input()
+  if(userchoice == "1"):
+    print("""What is WCAG
+
+    The Web Content Accessibility Guidelines are part of a series of web accessibility guidelines published by the Web Accessibility Initiative of the World Wide Web Consortium, the main international standards organization for the Internet.Web Content Accessibility Guidelines 2.0 defines how to make web content more accessible to people with disabilities, and older people with changing abilities due to ageing/aging. WCAG provides a provide common definition for accessible content, a benchmark.
+
+WCAG compliance aims to support web users living with various levels of these conditions. It also helps other afflictions such as cognitive or mobility limitations, speech impairments, and photosensitivity. WCAG is beneficial to those with temporary or conditional ailments too, such as age-related sight loss or other conditions or accidents like breaking your arm.
+""")
+
+  elif(userchoice == "2"):
+    print("""What was WCAG released?
+    WCAG 2.0, were published in December 2008 and became an ISO standard, ISO/IEC 40500:2012 in October 2012. WCAG 2.1 became a W3C Recommendation in June 2018.
+
+The WCAG 1.0 were published and became a W3C recommendation on 5 May 1999. In February 2008, The WCAG Samurai, a group of developers independent of the W3C, and led by Joe Clark, published corrections for, and extensions to, the WCAG 1.0.
+""")
+    print("")
+    print(""" """)
+
+  elif(userchoice == "3"):
+    print("""Who works on WCAG?
+    
+    Web Content Accessibility Guidelines (WCAG) explains how to make web content more accessible to people with disabilities. WCAG covers web sites, applications, and other digital content. It is developed by the World Wide Web Consortium (W3C) Web Accessibility Initiative (WAI). WCAG is an international standard.
+
+There are three levels of conformance:
+
+Level A is the minimum level.
+Level AA includes all Level A and AA requirements. Many organizations strive to meet Level AA.
+Level AAA includes all Level A, AA, and AAA requirements.
+
+The Accessibility Guidelines Working Group (AG WG) is developing WCAG 2.2, and plans to publish the final standard by December 2022. The structure and content of WCAG 2.2 is the same as 2.1 and 2.0. Version 2.2 will include new accessibility requirements, called “success criteria”. A ranking system also exists to indicate to the level of compliance to the WCAG. The rankings are A, AA, and AAA. A is typically seen as the minimum level of compliance. AAA is seen as the highest level of compliance. That being said, it is acknowledged the meeting the AAA level of compliance still does not guarantee that everyone will have access to the content.""")
+
+  elif(userchoice == "4"):
+    print("""What is WCAG 2.1 in comparison to WCAG 2.0
+    
+     WCAG 2.0 was published in 2008 and after 10 years WCAG 2.1 was published in 2018. WCAG 2.1 is not a replacement of WCAG 2.0 but is an extension of WCAG 2.0 with additional success criteria included to cater the needs of different user groups. In WCAG 2.1 there are 17 new success criteria’s included across all the 3 conformance levels. Out of the 17 new success criteria’s: 
+
+5 at Level A 
+7 at Level AA 
+5 at Level AAA 
+The new success criteria’s included in WCAG 2.1 aims at making the web content more accessible for: 
+
+Mobile users 
+Low vision users 
+Cognitive and learning impaired users  
+Users with motor and visual impairments 
+A new guideline has also been introduced in WCAG 2.1 to make it a total of 13 guidelines. The newly added guideline is 2.5 “Make it easier to use inputs other than keyboard.” 
+    
+    """)
+    
+  elif(userchoice == "5"):
+    print("""Task 2 more on WCAG 3
+    
+    WCAG 3 is currently an incomplete draft. It is intended to develop into a W3C Standard in a few years. The current standard, Web Content Accessibility Guidelines (WCAG 2), is introduced in the WCAG 2 Overview.
+
+The WCAG 3 documents explain how to make the web more accessible to people with disabilities. WCAG 3 applies to web content, apps, tools, publishing, and emerging technologies on the web.
+
+This page will be updated regularly as work on the WCAG 3 Draft progresses.""")
+
+
+  elif(userchoice == "6"):
+    print("""Check out these three different SAAS services that companies and organizations can use to improve the accessibility of their websites.
+
+Online ADA.com
+In this example, notice the icon of the white figure on a blue circle in the bottom right? Click it to open a fly-out menu that provides accessibility options. Try it out.
+
+accessiBe.com
+This example uses almost the exact same icon, and located in the same place. This fly-out menu is quite a bit more extensive. Try it out.
+
+EqualWeb.com
+The icon for the fly-out menu on this page looks a little different, and its located on the left side instead. Try it out as well.
+
+After trying out all three, which do you like best? 
+In your notes, explain your opinion. 
+
+I like the EqualWeb.com the most because quite frankly the other ones are ugly. Like the other ones Equalweb requires a demo and needs a credit card for a free trial which, admitedly, is really really annoying. So I never really got to "try" any of them but when Equal Web says "Achieve accessibility compliance with the quickest and most cost effective method available in the marketplace today?" I take their word for it""")
+  else: 
+    print("INVALID INPUT, please try again")
+    answer = "empty"
+    userchoice = input()

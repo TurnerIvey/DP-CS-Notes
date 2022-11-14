@@ -89,7 +89,7 @@ The icon for the fly-out menu on this page looks a little different, and its loc
 After trying out all three, which do you like best? 
 In your notes, explain your opinion. 
 
-I like the EqualWeb.com the most because quite frankly the other ones are ugly. Like the other ones Equalweb requires a demo and needs a credit card for a free trial which, admitedly, is really really annoying. So I never really got to "try" any of them but when Equal Web says "Achieve accessibility compliance with the quickest and most cost effective method available in the marketplace today?" I take their word for it""")
+I like the EqualWeb.com the most because quite frankly the other ones are ugly. Like the other ones Equalweb requires a demo and needs a credit card for a free trial which, admitedly, is really really annoying. So I never really got to "try" any of them but when Equal Web says "Achieve accessibility compliance with the quickest and most cost effective method available in the marketplace today?" I take their word for it. On second though, I like the second one a lot it is the most organzed and most easily accessible application """)
   else: 
     print("INVALID INPUT, please try again")
     answer = "empty"

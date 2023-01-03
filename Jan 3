@@ -1,0 +1,76 @@
+print("""Todays date is 1/03/2023, and these are notes on Computer Architecture
+Last semester, we focused on the Systems unit. The Systems unit is the longest of all the Diploma CS topics. This semester, we'll cover two units: Computer Architecture & Networks.
+As you work through today's content, take notes.
+-- MENU --
+''''''''''
+Please choose on of the options below, and press enter.
+1) What is IPO
+2) Task 1 considering the code
+3) Questions
+4) Part of the computers
+5) 
+6) 
+7)  
+Yo YO YO Mr. WHIIITEEEEE, type a number with corresponding topics.""")
+
+answer = "empty"
+
+while (answer == "empty"):
+  userchoice = input()
+  if(userchoice == "1"):
+    print("""What is IPO
+
+   IPO
+IPO is a basic acronym representing the basics of an information system. Let's look more into what this means exactly. An abstract way of describing the strucute of a system or algorithm. The entity recives some input, process it and produce some output.This model can represent a total system- like a phone - or a single aspect of the system like a button on an app. A practical aspect of this model is that if you standarise the inputs and outputs, then how eactly the data, then how exactly the data is processed is unimportant. 
+""")
+    print("")
+    print(""" """)
+
+  elif(userchoice == "2"):
+    print("""Task 1 considering the code
+    i is a value and if it is smaller than 15 it will be multiplied by 2 until it is no longer less than 15
+    """)
+
+  elif(userchoice == "3"):
+    print("""Questions
+    
+     What part of the code is the input? The input is i
+What part of the code is the process? if i is less than 15 than multiply i by 2
+What part of the code is the output? "write(i)" or 16
+Does it utilize feedback? how? Yes because it needs to re-loop back into the "while (i < 15)"
+Does it utilize storage? how? Yes because it stores in data text
+    
+    """)
+    
+  elif(userchoice == "4"):
+    print("""Part of the computer
+    A power supply unit (PSU) is a hardware device that converts AC electricity into DC electricity and then distributes it to the rest of the computer. On a standard desktop computer, the PSU is where the power cord plugs into and usually has an I/O power switch on it.
+    
+    Central Processing Unit (CPU)
+The CPU is the brain of a computer, containing all the circuitry needed to process input, store data, and output results. The CPU is constantly following instructions of computer programs that tell it which data to process and how to process it.
+
+RAM stands for random-access memory, but what does that mean? Your computer RAM is essentially short term memory where data is stored as the processor needs it. This isn't to be confused with long-term data that's stored on your hard drive, which stays there even when your computer is turned off.
+
+A solid-state drive (SSD) is a new generation of storage device used in computers. SSDs store data using flash-based memory, which is much faster than the traditional hard disks they've come to replace.
+
+A heat sink is a piece of metal that sits on top of a computer chip such as a CPU and draws power away from components by letting it rise through a series of fins. By themselves, heat sinks are passive, meaning they have no moving parts.
+
+CPU fan - a fan on top of a computer processor. It helps pull and blow hot air off the processor, helping keep it cooler. Power supply fan - a fan located inside a power supply. The power supply fan blows hotter air out of the power supply and out of the computer.
+
+Thermal Paste - A silvery-gray substance that you apply to a processor before installing a cooling solution. It allows for an efficient transfer of heat from the IHS of the processor to the base plate or water block of the CPU cooler that is designed to dissipate that heat.
+
+video card, also called graphics card, integrated circuit that generates the video signal sent to a computer display. The card is usually located on the computer motherboard or is a separate circuit board but is sometimes built into the computer display unit.
+
+An IO shield is a metal plate that comes with your motherboard. It protects the motherboard against EMI and static discharge. It also blocks off any dust or moisture that might be getting into your PC.
+
+A computer hard drive (or a hard disk or HDD) is one kind of technology that stores the operating system, applications, and data files such a documents, pictures and music that your computer uses. The rest of the components in your computer work together to show you the applications and files stored on your hard drive.
+    """)
+
+
+  elif(userchoice == "5"):
+    print("""""")
+  else: 
+    print("INVALID INPUT, please try again")
+    answer = "empty"
+    userchoice = input()
+   

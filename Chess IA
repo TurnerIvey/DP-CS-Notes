@@ -1,0 +1,116 @@
+import fontstyle
+ 
+
+text = fontstyle.apply(""" 
+
+          _____                    _____                    _____                _____                    _____                    _____                    _____                    _____                    _____           
+         /\    \                  /\    \                  /\    \              |\    \                  /\    \                  /\    \                  /\    \                  /\    \                  /\    \          
+        /::\    \                /::\____\                /::\    \             |:\____\                /::\    \                /::\____\                /::\    \                /::\    \                /::\    \         
+        \:::\    \              /:::/    /               /::::\    \            |::|   |               /::::\    \              /:::/    /               /::::\    \              /::::\    \              /::::\    \        
+         \:::\    \            /:::/    /               /::::::\    \           |::|   |              /::::::\    \            /:::/    /               /::::::\    \            /::::::\    \            /::::::\    \       
+          \:::\    \          /:::/    /               /:::/\:::\    \          |::|   |             /:::/\:::\    \          /:::/    /               /:::/\:::\    \          /:::/\:::\    \          /:::/\:::\    \      
+           \:::\    \        /:::/____/               /:::/__\:::\    \         |::|   |            /:::/  \:::\    \        /:::/____/               /:::/__\:::\    \        /:::/__\:::\    \        /:::/__\:::\    \     
+           /::::\    \       |::|    |               /::::\   \:::\    \        |::|   |           /:::/    \:::\    \      /::::\    \              /::::\   \:::\    \       \:::\   \:::\    \       \:::\   \:::\    \    
+  ____    /::::::\    \      |::|    |     _____    /::::::\   \:::\    \       |::|___|______    /:::/    / \:::\    \    /::::::\    \   _____    /::::::\   \:::\    \    ___\:::\   \:::\    \    ___\:::\   \:::\    \   
+ /\   \  /:::/\:::\    \     |::|    |    /\    \  /:::/\:::\   \:::\    \      /::::::::\    \  /:::/    /   \:::\    \  /:::/\:::\    \ /\    \  /:::/\:::\   \:::\    \  /\   \:::\   \:::\    \  /\   \:::\   \:::\    \  
+/::\   \/:::/  \:::\____\    |::|    |   /::\____\/:::/__\:::\   \:::\____\    /::::::::::\____\/:::/____/     \:::\____\/:::/  \:::\    /::\____\/:::/__\:::\   \:::\____\/::\   \:::\   \:::\____\/::\   \:::\   \:::\____\ 
+\:::\  /:::/    \::/    /    |::|    |  /:::/    /\:::\   \:::\   \::/    /   /:::/~~~~/~~      \:::\    \      \::/    /\::/    \:::\  /:::/    /\:::\   \:::\   \::/    /\:::\   \:::\   \::/    /\:::\   \:::\   \::/    / 
+ \:::\/:::/    / \/____/     |::|    | /:::/    /  \:::\   \:::\   \/____/   /:::/    /          \:::\    \      \/____/  \/____/ \:::\/:::/    /  \:::\   \:::\   \/____/  \:::\   \:::\   \/____/  \:::\   \:::\   \/____/  
+  \::::::/    /              |::|____|/:::/    /    \:::\   \:::\    \      /:::/    /            \:::\    \                       \::::::/    /    \:::\   \:::\    \       \:::\   \:::\    \       \:::\   \:::\    \      
+   \::::/____/               |:::::::::::/    /      \:::\   \:::\____\    /:::/    /              \:::\    \                       \::::/    /      \:::\   \:::\____\       \:::\   \:::\____\       \:::\   \:::\____\     
+    \:::\    \               \::::::::::/____/        \:::\   \::/    /    \::/    /                \:::\    \                      /:::/    /        \:::\   \::/    /        \:::\  /:::/    /        \:::\  /:::/    /     
+     \:::\    \               ~~~~~~~~~~               \:::\   \/____/      \/____/                  \:::\    \                    /:::/    /          \:::\   \/____/          \:::\/:::/    /          \:::\/:::/    /      
+      \:::\    \                                        \:::\    \                                    \:::\    \                  /:::/    /            \:::\    \               \::::::/    /            \::::::/    /       
+       \:::\____\                                        \:::\____\                                    \:::\____\                /:::/    /              \:::\____\               \::::/    /              \::::/    /        
+        \::/    /                                         \::/    /                                     \::/    /                \::/    /                \::/    /                \::/    /                \::/    /         
+         \/____/                                           \/____/                                       \/____/                  \/____/                  \/____/                  \/____/                  \/____/          
+                                                                                                                                                                                                                             
+
+This is the Chess IA Program IVEYCHESS
+-- MENU --
+''''''''''
+Please choose on of the options below, and press enter.
+
+|-------|
+| Black |
+|_______|
+
+|-------|
+| White |
+|_______|
+
+Type which color you want""", 'bold/Italic/red/GREEN_BG')
+
+print(text)
+
+answer = "empty"
+
+while (answer == "empty"):
+  userchoice = input()
+  if(userchoice == "Black") or ("black"):
+    print(""" Hello! So you are looking to find a good opening for Black? Just answer more of the questions below to narrow the search.
+
+    What type of games do you enjoy?
+
+    1. Open Games 
+    2. Semi Open Games
+    3. Closed games Semi-Closed games
+    4. Symmetrical Openings
+    5. System Openings
+    6. Gambit Openings
+    7. Hypermodern Openings
+    8. Classical Openings
+    9. Flank Openings
+    10. Tactical Openings
+    11. Positional Openings
+    12. Reversed Openings
+""")
+    answer = "empty"
+    
+    while (answer == "empty"):
+      userchoice = input()
+      if(userchoice == "1") or ("Open Games"):
+        print("So you like open games ")
+
+      elif(userchoice == "2") or (""):
+        print("")
+        
+      elif(userchoice == "3") or (""):
+        print("")
+        
+      elif(userchoice == "4") or (""):
+        print("")
+
+      elif(userchoice == "5") or (""):
+        print("")
+
+      elif(userchoice == "6") or (""):
+        print("")
+
+      elif(userchoice == "7") or (""):
+        print("")
+
+      elif(userchoice == "8") or (""):
+        print("")
+
+      elif(userchoice == "9") or (""):
+        print("")
+
+      elif(userchoice == "10") or (""):
+        print("")
+
+      elif(userchoice == "11") or (""):
+        print("")
+
+      elif(userchoice == "12") or (""):
+        print("")
+
+  elif(userchoice == "White"):
+    print("""""")
+    print("")
+    print(""" """)
+
+  else: 
+    print("INVALID INPUT, please try again")
+    answer = "empty"
+    userchoice = input()
